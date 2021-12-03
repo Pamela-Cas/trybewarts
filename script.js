@@ -5,6 +5,7 @@ const inputSim = document.getElementById('agreement');
 const btnEnviar = document.getElementById('submit-btn');
 const inputTexto = document.getElementById('textarea');
 const contador = document.getElementById('counter');
+const formulario = document.querySelector('#evaluation-form')
 function alerta() {
   if (inputEmail.value === 'tryber@teste.com' && inputSenha.value === '123456') {
     alert('Olá, Tryber!');
@@ -25,3 +26,7 @@ function contarCaracterers() {
   contador.innerText = resultado;
 }
 inputTexto.addEventListener('input', contarCaracterers);
+ function atualizarPagina(event) {
+   event.preventDefault();
+   }
+ btnEnviar.addEventListener('click', atualizarPagina);
