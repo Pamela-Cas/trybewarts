@@ -11,10 +11,14 @@ function alerta() {
   }
 }
 btnEntrar.addEventListener('click', alerta);
-
-if ( inputSim.disabled === true) {
-    btnEnviar.disabled = true;
-  } else if (inputSim.disabled === false){
+btnEnviar.disabled = true;
+function ativarEnviar(inputSim) {
+  if (inputSim.disabled = true) {
     btnEnviar.disabled = false;
+  } else {
+    btnEnviar.disabled = true;
   }
+}
+inputSim.addEventListener('click', ativarEnviar);
+
 
