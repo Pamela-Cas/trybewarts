@@ -12,13 +12,7 @@ function alerta() {
 }
 btnEntrar.addEventListener('click', alerta);
 btnEnviar.disabled = true;
-function ativarEnviar(inputSim) {
-  if (inputSim.disabled = true) {
-    btnEnviar.disabled = false;
-  } else {
-    btnEnviar.disabled = true;
-  }
+function ativarEnviar() {
+  btnEnviar.disabled = false;
 }
 inputSim.addEventListener('click', ativarEnviar);
-
-
