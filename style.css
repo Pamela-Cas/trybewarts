@@ -54,6 +54,10 @@ body {
   font-weight: 500;
 }
 
+#submit-btn {
+  background-color: rgb(81, 59, 131);
+  color: white;
+}
 .family {
 	display: block;
 }
@@ -66,6 +70,13 @@ main {
   font-size: 12pt;
   font-family: Helvetica, Arial, sans-serif;
 }
+
+h2 {
+  font-size: 20pt;
+  font-family: helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
 #label-family {
   font-size: 14pt;
   font-family: helvetica, Arial, sans-serif;
