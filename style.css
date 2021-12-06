@@ -34,16 +34,16 @@ body {
 #senha {
   border: 0;
   padding: 10px;
-  border-radius: 8px;
-  font-size: 10px;
+  border-radius: 100px;
+  font-size: 15px;
   font-weight: 500;
 }
 
 #email {
   border: 0;
   padding: 10px;
-  border-radius: 8px;
-  font-size: 10px;
+  border-radius: 100px;
+  font-size: 15px;
   font-weight: 500;
 }
 /*button*/
@@ -77,10 +77,42 @@ h2 {
   font-weight: bold;
 }
 
+#input-name {
+  border: 0;
+  padding: 10px;
+  border-radius: 100px;
+  font-size: 15px;
+  width:250px
+}
+
+#input-lastname {
+  border: 0;
+  padding: 10px;
+  border-radius: 100px;
+  font-size: 15px;
+  width: 300;
+}
+
+#input-email {
+  border: 0;
+  width:200px;
+ padding: 10px;
+ border-radius: 100px;
+}
+
 #label-family {
   font-size: 14pt;
   font-family: helvetica, Arial, sans-serif;
   font-weight: bold;
+}
+
+#house {
+  font-size: 20pt;
+  font-family: helvetica, Arial, sans-serif;
+  padding: 10px;
+  border-radius: 80px;
+  font-size: 16px;
+  width: 200px
 }
 
 #label-content {
@@ -123,7 +155,7 @@ h2 {
 }
 
 input, select, textarea, button {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 footer {
