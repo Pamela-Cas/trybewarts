@@ -18,7 +18,7 @@ body {
 }
 
 .trybewarts-header-logo {
-  height: 100px;
+  height: 90px;
 }
 
 .trybewarts-login {
@@ -27,7 +27,7 @@ body {
 }
 
 #trybewarts-header-title {
-  font-size: 50pt;
+  font-size: 40pt;
   color: rgb(233, 248, 245);
 }
 
