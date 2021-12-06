@@ -84,6 +84,17 @@ main {
   font-weight: bold;
 }
 
+.textarea {
+  font-size: 10pt;
+  font-family: helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+#label-infos {
+  font-size: 10pt;
+  font-family: helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
 #trybewarts-forms-logo {
   height: 500px;
 }
